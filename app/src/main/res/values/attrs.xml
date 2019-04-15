@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--ClearEditText-->
+    <declare-styleable name="ClearEditText">
+        <!--清除图标-->
+        <attr name="cetClearIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PasswordEditText">
+        <!--密码可见时的图标-->
+        <attr name="petVisibleIcon" format="reference" />
+        <!--密码不可见时的图标-->
+        <attr name="petInvisibleIcon" format="reference" />
+    </declare-styleable>
+</resources>

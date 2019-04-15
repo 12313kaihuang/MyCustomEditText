@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yu.hu.mycustomedittext.MyCustomEditTextActivity">
+
+
+    <com.yu.hu.mycustomedittext.ClearEditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        app:cetClearIcon="@drawable/sv_ic_clear" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <com.yu.hu.mycustomedittext.PasswordEditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:petInvisibleIcon="@drawable/ic_eye_slash"
+        app:petVisibleIcon="@drawable/ic_eye" />
+
+</LinearLayout>
